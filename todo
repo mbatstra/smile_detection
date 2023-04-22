@@ -1,0 +1,5 @@
+move entire face routine to seperate function
+keep an array of timestamps with all the function calls to above func
+	use density to graph price
+set up printing/dispension routine
+set up button input
