@@ -1,5 +1,13 @@
-move entire face routine to seperate function
 keep an array of timestamps with all the function calls to above func
 	use density to graph price
 set up printing/dispension routine
 set up button input
+
+setup:
+	- main gui (press start)
+	- countdown screen
+	- fullscreen face recognition (with timer)
+	- external screen: revolut style live graph
+	- hardware:
+		- tickets
+		- coins
