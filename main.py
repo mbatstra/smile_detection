@@ -43,7 +43,8 @@ def scale_img(img, width, height):
 def wait_startup():
     # insert image made by iggy here
     img = np.zeros((300, 400, 3), dtype=np.uint8)
-    img2 = cv2.imread('assets/strart.jpg')
+    img2 = cv2.imread('assets/startbutton.jpg')
+    img2 = scale_img(img2, 100, 50)
     img[150:150+img2.shape[0], 110:110+img2.shape[1]] = img2
     while (True):
         cv2.imshow("main", img)
@@ -98,13 +99,25 @@ def record_withdrawal(timer):
         # set timer flag
         timer.set_true() if ret else timer.set_false()
     
+        if not timer.is_true and time.time() - timer.temp_time > 1.5:
+            draw_text(cam, 'keep smiling to continue', True, 
+                      pos=(0, 250), font_thickness=1, font_scale=1, font=cv2.FONT_HERSHEY_DUPLEX)
+
         # display frame
         cv2.imshow("main", cam)
+
+        if not timer.is_true and time.time() - timer.temp_time > 3:
+            return
 
         # exit program
         if cv2.waitKey(1) & 0xFF == ord('q'):
             return
 
+
+# to do:
+#   - start timing whenever smiling stops
+#   - show warning and exit when appropriate
+#   - loop main
 
 def main():
     # show starting screen

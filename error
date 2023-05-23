@@ -1,0 +1,434 @@
+Traceback (most recent call last):
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_qt.py", line 468, in _draw_idle
+    self.draw()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 400, in draw
+    self.figure.draw(self.renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/figure.py", line 3140, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/axes/_base.py", line 3064, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 737, in draw
+    self.recache()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 666, in recache
+    self._xy = np.column_stack(np.broadcast_arrays(x, y)).astype(float)
+  File "<__array_function__ internals>", line 200, in broadcast_arrays
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 540, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 422, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (100,) and arg 1 with shape (500,).
+Traceback (most recent call last):
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_qt.py", line 468, in _draw_idle
+    self.draw()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 400, in draw
+    self.figure.draw(self.renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/figure.py", line 3140, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/axes/_base.py", line 3064, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 737, in draw
+    self.recache()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 666, in recache
+    self._xy = np.column_stack(np.broadcast_arrays(x, y)).astype(float)
+  File "<__array_function__ internals>", line 200, in broadcast_arrays
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 540, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 422, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (100,) and arg 1 with shape (500,).
+Traceback (most recent call last):
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_qt.py", line 468, in _draw_idle
+    self.draw()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 400, in draw
+    self.figure.draw(self.renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/figure.py", line 3140, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/axes/_base.py", line 3064, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 737, in draw
+    self.recache()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 666, in recache
+    self._xy = np.column_stack(np.broadcast_arrays(x, y)).astype(float)
+  File "<__array_function__ internals>", line 200, in broadcast_arrays
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 540, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 422, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (100,) and arg 1 with shape (500,).
+Traceback (most recent call last):
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_qt.py", line 468, in _draw_idle
+    self.draw()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 400, in draw
+    self.figure.draw(self.renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/figure.py", line 3140, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/axes/_base.py", line 3064, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 737, in draw
+    self.recache()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 666, in recache
+    self._xy = np.column_stack(np.broadcast_arrays(x, y)).astype(float)
+  File "<__array_function__ internals>", line 200, in broadcast_arrays
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 540, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 422, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (100,) and arg 1 with shape (500,).
+Traceback (most recent call last):
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_qt.py", line 468, in _draw_idle
+    self.draw()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 400, in draw
+    self.figure.draw(self.renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/figure.py", line 3140, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/axes/_base.py", line 3064, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 737, in draw
+    self.recache()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 666, in recache
+    self._xy = np.column_stack(np.broadcast_arrays(x, y)).astype(float)
+  File "<__array_function__ internals>", line 200, in broadcast_arrays
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 540, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 422, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (100,) and arg 1 with shape (500,).
+Traceback (most recent call last):
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_qt.py", line 468, in _draw_idle
+    self.draw()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 400, in draw
+    self.figure.draw(self.renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/figure.py", line 3140, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/axes/_base.py", line 3064, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 737, in draw
+    self.recache()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 666, in recache
+    self._xy = np.column_stack(np.broadcast_arrays(x, y)).astype(float)
+  File "<__array_function__ internals>", line 200, in broadcast_arrays
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 540, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 422, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (100,) and arg 1 with shape (500,).
+Traceback (most recent call last):
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_qt.py", line 468, in _draw_idle
+    self.draw()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 400, in draw
+    self.figure.draw(self.renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/figure.py", line 3140, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/axes/_base.py", line 3064, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 737, in draw
+    self.recache()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 666, in recache
+    self._xy = np.column_stack(np.broadcast_arrays(x, y)).astype(float)
+  File "<__array_function__ internals>", line 200, in broadcast_arrays
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 540, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 422, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (100,) and arg 1 with shape (500,).
+Traceback (most recent call last):
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_qt.py", line 468, in _draw_idle
+    self.draw()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 400, in draw
+    self.figure.draw(self.renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/figure.py", line 3140, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/axes/_base.py", line 3064, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 737, in draw
+    self.recache()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 666, in recache
+    self._xy = np.column_stack(np.broadcast_arrays(x, y)).astype(float)
+  File "<__array_function__ internals>", line 200, in broadcast_arrays
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 540, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 422, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (100,) and arg 1 with shape (500,).
+Traceback (most recent call last):
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_qt.py", line 468, in _draw_idle
+    self.draw()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 400, in draw
+    self.figure.draw(self.renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/figure.py", line 3140, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/axes/_base.py", line 3064, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 737, in draw
+    self.recache()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 666, in recache
+    self._xy = np.column_stack(np.broadcast_arrays(x, y)).astype(float)
+  File "<__array_function__ internals>", line 200, in broadcast_arrays
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 540, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 422, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (100,) and arg 1 with shape (500,).
+Traceback (most recent call last):
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_qt.py", line 468, in _draw_idle
+    self.draw()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 400, in draw
+    self.figure.draw(self.renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/figure.py", line 3140, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/axes/_base.py", line 3064, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 737, in draw
+    self.recache()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 666, in recache
+    self._xy = np.column_stack(np.broadcast_arrays(x, y)).astype(float)
+  File "<__array_function__ internals>", line 200, in broadcast_arrays
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 540, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 422, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (100,) and arg 1 with shape (500,).
+Traceback (most recent call last):
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_qt.py", line 468, in _draw_idle
+    self.draw()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 400, in draw
+    self.figure.draw(self.renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/figure.py", line 3140, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/axes/_base.py", line 3064, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 737, in draw
+    self.recache()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 666, in recache
+    self._xy = np.column_stack(np.broadcast_arrays(x, y)).astype(float)
+  File "<__array_function__ internals>", line 200, in broadcast_arrays
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 540, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 422, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (100,) and arg 1 with shape (500,).
+Traceback (most recent call last):
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_qt.py", line 468, in _draw_idle
+    self.draw()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 400, in draw
+    self.figure.draw(self.renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/figure.py", line 3140, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/axes/_base.py", line 3064, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 737, in draw
+    self.recache()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 666, in recache
+    self._xy = np.column_stack(np.broadcast_arrays(x, y)).astype(float)
+  File "<__array_function__ internals>", line 200, in broadcast_arrays
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 540, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 422, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (100,) and arg 1 with shape (500,).
+Traceback (most recent call last):
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_qt.py", line 468, in _draw_idle
+    self.draw()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 400, in draw
+    self.figure.draw(self.renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/figure.py", line 3140, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/axes/_base.py", line 3064, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 737, in draw
+    self.recache()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 666, in recache
+    self._xy = np.column_stack(np.broadcast_arrays(x, y)).astype(float)
+  File "<__array_function__ internals>", line 200, in broadcast_arrays
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 540, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 422, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (100,) and arg 1 with shape (500,).
+Traceback (most recent call last):
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_qt.py", line 468, in _draw_idle
+    self.draw()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 400, in draw
+    self.figure.draw(self.renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/figure.py", line 3140, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/axes/_base.py", line 3064, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 737, in draw
+    self.recache()
+  File "/home/martijn/.local/lib/python3.10/site-packages/matplotlib/lines.py", line 666, in recache
+    self._xy = np.column_stack(np.broadcast_arrays(x, y)).astype(float)
+  File "<__array_function__ internals>", line 200, in broadcast_arrays
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 540, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "/usr/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 422, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (100,) and arg 1 with shape (500,).
